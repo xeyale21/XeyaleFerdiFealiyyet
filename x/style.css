@@ -1,0 +1,266 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figcaption,
+.logo {
+    font-family: 'Georgia', Times, 'Times New Roman', serif
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+body {
+    background: #E6E6FA;
+    color: #777777;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: #cccccc solid 2px;
+}
+
+.aa{
+    display: flex;
+}
+.img{
+    margin-left: 10px;
+    width: 300px;
+}
+section,
+aside {
+    background: #ffffff;
+}
+
+section h2,
+aside h3 {
+    border-bottom: 2px solid #d3d3d3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #9400D3;
+}
+
+nav,
+nav a {
+    color: #777777;
+}
+
+nav a:hover {
+    color: #DA70D6;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 76px;
+}
+
+section,
+.content {
+    margin: 0 auto;
+}
+
+.content {
+    width: 960px;
+}
+
+nav,
+aside {
+    float: right;
+    margin: 20px 0 20px 20px;
+    width: 270px;
+}
+
+section {
+    float: left;
+    margin: 20px 20px 20px 0;
+    width: 650px;
+}
+
+section,
+aside {
+    height: fit-content;
+}
+
+section h2,
+aside h3 {
+    margin: 10px 20px;
+}
+
+section p,
+section form,
+section table {
+    padding: 10px 20px;
+    color: black;
+}
+
+aside ul {
+    margin: 20px 30px;
+}
+
+nav {
+    padding: 20px 0;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+
+nav a {
+    margin: auto 5px;
+}
+
+hr {
+    height: 1px;
+    width: 95%;
+}
+
+.buton {
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.btn {
+    border: 0;
+    font-size: 14px;
+    background: #9932CC;
+    padding: 11px 30px;
+}
+
+
+
+.content {
+    flex: 1 0 auto;
+}
+
+
+.logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px;
+    background: #9400D3;
+    color: #ffffff;
+    height: fit-content;
+    width: fit-content;
+}
+
+.a {
+    display: inline;
+}
+
+.a a {
+    text-decoration: none;
+}
+
+
+
+.a img {
+    height: 60px;
+    width: 60px;
+}
+
+.a img:hover {
+    height: 70px;
+    width: 70px;
+}
+
+
+
+.form label {
+    color: black;
+    cursor: pointer;
+}
+
+.form input {
+    height: 25px;
+}
+
+.form textarea {
+    height: 150px;
+}
+
+.form input,
+.form textarea {
+    width: 95%;
+    padding: 5px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    border: 2px solid #dddddd;
+    margin: 5px 0;
+    
+}
+
+
+
+
+figure,
+figure img {
+    float: left;
+    width: 300px;
+    position: relative;
+}
+
+figure img {
+    border: #777777 solid 1px;
+}
+
+figure {
+    margin: 10px;
+}
+
+figcaption {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    background: #9400D3;
+    color: #ffffff;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+figcaption a {
+    text-decoration: none;
+}
+
+figcaption:hover {
+    color: #FFFFE0;
+}
+//https://github.com/NotTheDBA/portfolio
